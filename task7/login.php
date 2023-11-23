@@ -46,7 +46,7 @@ if(isset($_POST['mail'])&&isset($_POST['pass'])){
     <?php if(!empty($all_errors)) :?>
         <?php foreach($all_errors as $error):?>
             <div class="alert alert-info">
-                 <?= $error ?>
+                 <?= $error?>
             </div>
         <?php endforeach ?>
     <?php endif ?>    
